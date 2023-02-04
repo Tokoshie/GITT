@@ -30,12 +30,13 @@ git remote -v
 git remote add source https://github.com/Tokoshie/GITT.git
 #指定fork的库来源为远程库
 
+git pull origin main
+#同下列操作：同步origin的更新内容到本地main分支
+
 git fetch source
 #拉取最新的源库代码
-
 git checkerout main
 #切换到本地[你需要push的远程分支]
-
 git merge source/main
 # 合并source源的main分支到本地
 
