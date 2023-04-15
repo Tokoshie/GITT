@@ -48,19 +48,58 @@ git push origin main
 
 
 ```
-
-<p align=center>
-<img src='image/1.png'width=50%>
+<!-- <p>
+<img align=left src='image/1.png'width=50%>
+<p>文本注释1</p>
 </p>
+</n> 
+|文本注释：|<img src='image/2.png' width=50%>|
+|<img src='image/3.png' width=50%>|描述文字|-->
+---
+<div style="display: flex; align-items: flex-start;">
+   <div style="flex: 3;">
+        <img src="image/1.png" alt="图片1" width="100%">
+    </div>
+    <div style="flex: 3; padding-left: 20px;">
+        ((masterpiece, best quality)),a girl, solo, twintails, shirt, skirt, petals, bowtie, earrings, jewelry, bangs, black hair, hair ornament, hair ribbon, red ribbon, red eyes, long hair, open mouth, white shirt, multicolored hair, black skirt, red hair, long sleeves, pink bowtie, hair between eyes, looking at viewer, collared shirt, upper body, hand up, falling petals, depth of field, strong bloom, red background
+Negative prompt: (low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition, inaccurate eyes, extra digit,fewer digits,(extra arms:1.2),
+Steps: 20, Sampler: DPM++ SDE Karras, CFG scale: 6.0, Seed: 2577623252, Size: 640x384, Model hash: 8838e0d1fb, Model: Counterfeit-V2.0, Denoising strength: 0.6, Clip skip: 2, Hires upscale: 2, Hires upscaler: Latent
+    </div>
+</div>
 
-<p align=center>
-<img src='image/2.png'width=50%>
-</p>
+---
+<div style="display: flex; align-items: flex-start;">
+    <div style="flex: 3;">
+        <img src="image/2.png" alt="图片2" width="100%">
+    </div>
+    <div style="flex: 3; padding-left: 20px;">
+        ((masterpiece, best quality)),a girl, solo, twintails, shirt, skirt, petals, bowtie, earrings, jewelry, bangs, black hair, hair ornament, hair ribbon, red ribbon, red eyes, long hair, open mouth, white shirt, multicolored hair, black skirt, red hair, long sleeves, pink bowtie, hair between eyes, looking at viewer, collared shirt, upper body, hand up, falling petals, depth of field, strong bloom, red background
+Negative prompt: (low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition, inaccurate eyes, extra digit,fewer digits,(extra arms:1.2),
+Steps: 20, Sampler: DPM++ SDE Karras, CFG scale: 8, Seed: 320807752, Size: 640x384, Model hash: f3b033b02f, Model: Counterfeit-V2.0, Denoising strength: 0.6, Clip skip: 2, Hires upscale: 2, Hires upscaler: Latent
+    </div>
+</div>
 
-<p align=center>
-<img src='image/3.png'width=50%>
-</p>
+---
+<div style="display: flex; align-items: flex-start;">
+    <div style="flex: 3;">
+        <img src="image/3.png" alt="图片2" width="100%">
+    </div>
+    <div style="flex: 3; padding-left: 20px;">
+        ((masterpiece, best quality)),a girl, solo, twintails, shirt, skirt, petals, bowtie, earrings, jewelry, bangs, black hair, hair ornament, hair ribbon, red ribbon, red eyes, long hair, open mouth, white shirt, multicolored hair, black skirt, red hair, long sleeves, pink bowtie, hair between eyes, looking at viewer, collared shirt, upper body, hand up, falling petals, depth of field, strong bloom, red background
+Negative prompt: (low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition, inaccurate eyes, extra digit,fewer digits,(extra arms:1.2),
+Steps: 20, Sampler: DPM++ SDE Karras, CFG scale: 8, Seed: 320807752, Size: 640x384, Model hash: c743a8da49, Model: dsmile_st_uo, Denoising strength: 0.6, Clip skip: 2, Hires upscale: 2, Hires upscaler: Latent
+    </div>
+</div>
 
-<p align=center>
-<img src='image/4.png'width=50%>
-</p>
+---
+<div style="display: flex; align-items: flex-start;">
+    <div style="flex: 3;">
+        <img src="image/4.png" alt="图片2" width="100%">
+    </div>
+    <div style="flex: 3; padding-left: 20px;">
+        ((masterpiece, best quality)),a girl, solo, hat, blush,long hair, skirt, beret, sitting, bangs, socks, wariza, pink hair, light blue eyes, black headwear,holding,rifle,weapon, looking at viewer, white sailor collar, school uniform, closed mouth, black hat, sailor collar, holding weapon, long sleeves, pleated skirt, white socks,indoors,industrial
+        Negative prompt: (low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition, inaccurate eyes, extra digit,fewer digits,(extra arms:1.2),
+        Steps: 20, Sampler: DPM++ SDE Karras, CFG scale: 8, Seed: 2480113831, Size: 576x448, Model hash: 8838e0d1fb, Model: Counterfeit-V2.0, Batch size: 3, Batch pos: 0, Denoising strength: 0.6, Clip skip: 2, Hires upscale: 2, Hires upscaler: Latent
+    </div>
+</div>
+
